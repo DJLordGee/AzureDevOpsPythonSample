@@ -46,6 +46,7 @@ steps:
     testRunTitle: 'Python $(PYTHON_VERSION)'
 
 - task: PythonScript@0
+  displayName: 'LordGee Python script'
   inputs:
     scriptSource: 'inline'
     script: '"""Search all subdirectories for `manage.py`."""
